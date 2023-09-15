@@ -36,7 +36,7 @@ export default function Expertise() {
       )}
       {selectedOption === 'Framework' && (
         <div className="flex flex-row mx-auto my-3 justify-center space-x-9">
-          <img src="/React logo.png" className="my-auto w-auto h-6 md:h-12" />
+          <img src="/react_logo.png" className="my-auto w-auto h-6 md:h-12" />
           <img src="/MongoDB_Logo.svg.png" className="my-auto w-auto h-6 md:h-12" />
           <img src="/Group.png" className="my-auto w-auto h-6 md:h-12" />
           <img src="/next_putih.png" className="my-auto w-auto h-6 md:h-12" />
