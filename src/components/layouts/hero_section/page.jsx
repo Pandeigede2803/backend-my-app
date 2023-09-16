@@ -17,13 +17,13 @@ const Hero_section = () => {
 
         <div className=" lg:ml-0  mt-6">
           <div className="flex flex-row justify-center lg:justify-start">
-            <a href="https://twitter.com">
+            <a href="https://twitter.com/DedeSudiahna">
               <FaTwitter className="text-2xl hover:text-blue-500 mr-4" />
             </a>
-            <a href="https://linkedin.com">
+            <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">
               <FaLinkedin className="text-2xl hover:text-blue-500 mr-4" />
             </a>
-            <a href="https://github.com">
+            <a href="https://github.com/Pandeigede2803">
               <FaGithub className="text-2xl hover:text-gray-600" />
             </a>
           </div>
