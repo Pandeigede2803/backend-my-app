@@ -17,7 +17,7 @@ export default function project() {
   };
 
   return (
-    <div className='flex flex-col w-fit lg:w-full'>
+    <div className='flex flex-col lg:w-full'>
       <Navbar/>
       <Portofolio/>
       <Footer/>
