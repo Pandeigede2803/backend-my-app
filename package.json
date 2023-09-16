@@ -3,11 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "concurrently \"npm run dev:next\" \"npm run dev:express\"",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "NODE_ENV=production node server.js",
+    "dev:next": "next dev",
+    "dev:express": "node server.js"
   },
+  
   "dependencies": {
     "autoprefixer": "10.4.15",
     "body-parser": "^1.20.2",
@@ -28,5 +30,8 @@
     "reacticon": "^0.0.1",
     "tailwindcss": "3.3.3",
     "vercel": "^32.2.3"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.1"
   }
 }
