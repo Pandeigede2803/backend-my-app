@@ -21,7 +21,7 @@ const Dashboard = () => {
   return (
     //create full code of hamburger here
 
-    <div className="flex flex-col h-full  ">
+    <div className="flex flex-col lg:flex-row h-full  ">
       <div className="bg-[#A28BFF]">
         {/* Hamburger Icon */}
         <button
