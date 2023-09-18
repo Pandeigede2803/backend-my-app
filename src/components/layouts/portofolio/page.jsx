@@ -8,7 +8,7 @@ export default function Portofolio() {
 
   useEffect(() => {
     // Fetch data from the API endpoint
-    fetch('http://localhost:5000/api/projects')
+    fetch('http://localhost:8000/api/projects')
       .then((response) => response.json())
       .then((data) => setProjects(data))
       .catch((error) => console.error('Error fetching data:', error));
@@ -63,7 +63,7 @@ export default function Portofolio() {
         {filteredProjects.map((project) => (
           <PortoCards
             key={project.id}
-            Image={project.Image}
+            Image={`http://localhost:8000/images/${project.Image}`}
             ProjectTitle={project.ProjectTitle}
             Description={project.Description}
             Categories={project.Categories}

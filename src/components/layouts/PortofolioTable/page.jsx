@@ -9,7 +9,7 @@ function PortfolioTable() {
     console.log(`Deleting item with ID ${id}`);
 
     try {
-      const response = await fetch(`https://my-app-backend-omega.vercel.app/api/projects/${id}`, {
+      const response = await fetch(`http://localhost:8000/api/projects/${id}`, {
         method: "DELETE",
       });
 
@@ -31,7 +31,7 @@ function PortfolioTable() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("https://my-app-backend-omega.vercel.app/api/projects");
+        const response = await fetch("http://localhost:8000/api/projects");
         if (response.ok) {
           const data = await response.json();
           setPortfolioItems(data);
@@ -91,6 +91,7 @@ function PortfolioTable() {
                   alt={item.ProjectTitle}
                   className="h-auto w-20"
                 />
+                console.log(`ini adalah image : ${item.Image}`)
               </td>
               <td className="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-900">
                 {item.Description}

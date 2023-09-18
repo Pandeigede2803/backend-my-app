@@ -26,10 +26,11 @@ function PortoCards({ Image, ProjectTitle, Description, Categories, id, URL }) {
     >
       {/* Image */}
       <img
-        src={`/images/${Image}`}
+        src={`${Image}`}
         alt={ProjectTitle}
         className="w-full h-full object-cover object-center"
       />
+      
 
       {/* Content (Hidden by Default) */}
       <div className="absolute top-0 left-0 right-0 bottom-0 bg-black opacity-0 hover:opacity-80 transition-opacity duration-300 ease-in-out flex flex-col justify-center p-4">
