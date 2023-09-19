@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { FaLaptop, FaCamera, FaFilm } from 'react-icons/fa';
 import PortoCards from '../porto_cards/page';
+import { backendUrl } from '@/utils/Config';
+
 
 export default function Portofolio() {
   const [projects, setProjects] = useState([]);
@@ -8,7 +10,7 @@ export default function Portofolio() {
 
   useEffect(() => {
     // Fetch data from the API endpoint
-    fetch('https://mongodbportofoliobackend.vercel.app')
+    fetch(backendUrl)
       .then((response) => response.json())
       .then((data) => setProjects(data))
       .catch((error) => console.error('Error fetching data:', error));
@@ -63,7 +65,7 @@ export default function Portofolio() {
         {filteredProjects.map((project) => (
           <PortoCards
             key={project.id}
-            Image={`https://mongodbportofoliobackend.vercel.app/images/${project.Image}`}
+            Image={`${backendUrl}/images/${project.Image}`}
             ProjectTitle={project.ProjectTitle}
             Description={project.Description}
             Categories={project.Categories}

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { backendUrl } from "@/utils/Config";
 
 const PortfolioForm = () => {
   const [projectTitle, setProjectTitle] = useState("");
@@ -38,7 +39,7 @@ const PortfolioForm = () => {
       formData.append("Categories", categories);
       formData.append("URL", url); // Append the URL field to the formData
   
-      const response = await fetch("https://mongodbportofoliobackend.vercel.app", {
+      const response = await fetch(backendUrl, {
         method: "POST",
         body: formData,
       });
