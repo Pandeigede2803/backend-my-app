@@ -38,7 +38,7 @@ const PortfolioForm = () => {
       formData.append("Categories", categories);
       formData.append("URL", url); // Append the URL field to the formData
   
-      const response = await fetch("https://my-app-backend-omega.vercel.app/api/projects", {
+      const response = await fetch("https://mongodbportofoliobackend.vercel.app", {
         method: "POST",
         body: formData,
       });

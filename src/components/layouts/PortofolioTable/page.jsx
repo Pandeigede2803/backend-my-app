@@ -31,7 +31,7 @@ function PortfolioTable() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("http://localhost:8000/api/projects");
+        const response = await fetch("https://mongodbportofoliobackend.vercel.app");
         if (response.ok) {
           const data = await response.json();
           setPortfolioItems(data);

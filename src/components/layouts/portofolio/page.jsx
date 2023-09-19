@@ -8,7 +8,7 @@ export default function Portofolio() {
 
   useEffect(() => {
     // Fetch data from the API endpoint
-    fetch('http://localhost:8000/api/projects')
+    fetch('https://mongodbportofoliobackend.vercel.app')
       .then((response) => response.json())
       .then((data) => setProjects(data))
       .catch((error) => console.error('Error fetching data:', error));
@@ -63,7 +63,7 @@ export default function Portofolio() {
         {filteredProjects.map((project) => (
           <PortoCards
             key={project.id}
-            Image={`http://localhost:8000/images/${project.Image}`}
+            Image={`https://mongodbportofoliobackend.vercel.app/images/${project.Image}`}
             ProjectTitle={project.ProjectTitle}
             Description={project.Description}
             Categories={project.Categories}
