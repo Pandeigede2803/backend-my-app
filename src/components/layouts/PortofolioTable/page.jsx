@@ -92,6 +92,7 @@ function PortfolioTable() {
                   alt={item.ProjectTitle}
                   className="h-auto w-20"
                 />
+                {console.log(`ini adalah ${item.image}`)}
               </td>
               <td className="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-900">
                 {item.Description}
