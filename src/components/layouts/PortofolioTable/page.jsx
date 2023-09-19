@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { backendUrl } from "@/utils/Config";
+import { backendUrl, postgetUrl } from "@/utils/Config";
 
 import Image from "next/image";
 
@@ -10,7 +10,7 @@ function PortfolioTable() {
     console.log(`Deleting item with ID ${id}`);
 
     try {
-      const response = await fetch(`${backendUrl}/${id}`, {
+      const response = await fetch(`${postgetUrl}/${id}`, {
         method: "DELETE",
       });
 
@@ -32,7 +32,7 @@ function PortfolioTable() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(backendUrl);
+        const response = await fetch(postgetUrl);
         if (response.ok) {
           const data = await response.json();
           setPortfolioItems(data);
@@ -88,7 +88,7 @@ function PortfolioTable() {
               </td>
               <td className="px-6 py-4 whitespace-no-wrap text-sm leading-5 text-gray-900">
                 <img
-                  src={`/images/${item.Image}`}
+                  src={`${backendUrl}/images/${item.Image}`}
                   alt={item.ProjectTitle}
                   className="h-auto w-20"
                 />

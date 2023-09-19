@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { FaLaptop, FaCamera, FaFilm } from 'react-icons/fa';
 import PortoCards from '../porto_cards/page';
-import { backendUrl } from '@/utils/Config';
+import { backendUrl, postgetUrl } from '@/utils/Config';
 
 
 export default function Portofolio() {
@@ -10,7 +10,7 @@ export default function Portofolio() {
 
   useEffect(() => {
     // Fetch data from the API endpoint
-    fetch(backendUrl)
+    fetch(postgetUrl)
       .then((response) => response.json())
       .then((data) => setProjects(data))
       .catch((error) => console.error('Error fetching data:', error));

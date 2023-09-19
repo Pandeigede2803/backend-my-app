@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { backendUrl } from "@/utils/Config";
+import { postgetUrl } from "@/utils/Config";
 
 const PortfolioForm = () => {
   const [projectTitle, setProjectTitle] = useState("");
@@ -39,7 +40,7 @@ const PortfolioForm = () => {
       formData.append("Categories", categories);
       formData.append("URL", url); // Append the URL field to the formData
   
-      const response = await fetch(backendUrl, {
+      const response = await fetch(postgetUrl, {
         method: "POST",
         body: formData,
       });
