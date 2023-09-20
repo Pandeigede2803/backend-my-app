@@ -2,8 +2,8 @@
 
 
 //backendurl
-export const backendUrl = "https://mongodbportofoliobackend.vercel.app";
+export const backendUrl = "https://api.porto2.bossprojec.com";
 
 //post and get url
 
-export const postgetUrl = "https://mongodbportofoliobackend.vercel.app/api/projects";
+export const postgetUrl = "https://api.porto2.bossprojec.com/api/projects";
