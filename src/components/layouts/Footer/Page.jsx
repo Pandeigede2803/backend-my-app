@@ -6,7 +6,7 @@ function Footer() {
     <footer className="bg-gray-800 text-white py-4">
       <div className="container mx-auto">
         <div className="flex justify-between items-center mx-10">
-          <div className="text-xl font-semibold">Your Company</div>
+          <div className="text-xl font-semibold">Dede Sudiahna</div>
           <div className="flex space-x-4">
             <a href="https://www.instagram.com/dedesudiahna/" className="hover:text-gray-400">
               <FaInstagram size={24} />
