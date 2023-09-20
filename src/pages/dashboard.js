@@ -22,7 +22,7 @@ const Dashboard = () => {
     //create full code of hamburger here
     <div className="flex flex-col lg:flex-row ">
       {/* Sidebar */}
-      <div className="w-64 bg-gradient-to-r from-fuchsia-500 to-pink-500 shadow-lg h-screen  hidden lg:block space-y-6 ">
+      <div className="w-64 bg-gradient-to-r from-fuchsia-500 to-pink-500 shadow-lg h-screen  hidden lg:block space-y-6 rounded-e-xl ">
         <div className="p-4 ">
           <h1 className="text-2xl font-semibold text-gray-800">DASHBOARD</h1>
         </div>
@@ -94,7 +94,7 @@ const Dashboard = () => {
 
           {/* Mobile Navbar Dropdown */}
           {isMobileMenuOpen && (
-            <div className="  bg-gradient-to-r from-fuchsia-500 to-pink-500  shadow-lg min-h-max lg:hidden">
+            <div className="  bg-gradient-to-r from-fuchsia-500 to-pink-500  shadow-lg min-h-max lg:hidden ">
               <div className="p-4">
                 <h1 className="text-2xl font-semibold text-gray-800">
                   DASHBOARD
