@@ -8,6 +8,8 @@ import Portofolio from '@/components/layouts/portofolio/page'
 import CardsPortofolio from '@/components/layouts/Card_portofolio/Page'
 import Footer from '@/components/layouts/Footer/Page'
 import Motivation from '@/components/layouts/motivation/page'
+import Project from '@/models/Project'
+import LastedProject from '@/components/layouts/LastedProject/page'
 
 
 
@@ -17,11 +19,10 @@ export default function Home() {
   return (
     <div className='flex flex-col w-fit lg:w-full'>
       <Navbar/>
-      
       <Hero_section/>
-
-      <Expertise/>
       <About/>
+      <Expertise/>
+      <LastedProject/>
       <Portofolio/>
       <Motivation/>
       <Footer/>

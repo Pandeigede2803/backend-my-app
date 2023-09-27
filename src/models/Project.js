@@ -27,7 +27,7 @@ const projectSchema = new schema({
 });
 
 // Buat model Project berdasarkan skema yang telah didefinisikan
-const Project = mongoose.model('Project', projectSchema);
+// const Project = mongoose.model('Project', projectSchema);
 
-// Ekspor model Project agar dapat digunakan di tempat lain
-module.exports = Project;
+// // Ekspor model Project agar dapat digunakan di tempat lain
+// module.exports = Project;

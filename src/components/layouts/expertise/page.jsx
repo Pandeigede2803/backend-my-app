@@ -10,7 +10,7 @@ export default function Expertise() {
   };
 
   return (
-    <div className="mt-12 py-9 flex flex-col justify-center">
+    <div className="mt-2 py-9 flex flex-col justify-center">
       <span className="flex justify-center space-x-4 md:text-base text-sm">
         <Link href="#" onClick={(e) => handleLinkClick(e, 'Design')} className="hover:text-[#A28BFF]">
           DESIGN /
