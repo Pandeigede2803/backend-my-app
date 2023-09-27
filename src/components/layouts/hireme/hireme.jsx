@@ -5,7 +5,7 @@ export default function HireMePage() {
   // Replace with your contact information
   const contactInfo = {
     name: "Dede Sudiahna",
-    email: "Pandegede@gmail.com",
+    email: "Pandegedesudiahna@gmail.com",
     phoneNumber: "+6281-238-266-915",
     cvDownloadLink: "https://drive.google.com/file/d/10l9crosHRcZc2fZMtn1glTo9NI9_yZW7/view?usp=sharing", // Replace with the actual path to your CV
   };
