@@ -4,38 +4,38 @@ const PortfolioData = () => {
   return [
     {
       "id": 1,
-      "imageSrc": "https://images.unsplash.com/photo-1682695795255-b236b1f1267d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-      "company": "Tech Co.",
-      "title": "Tech Product",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et justo eu est vehicula malesuada."
+      "imageSrc": "https://ik.imagekit.io/m1akscp5q/6.png?updatedAt=1695873810679",
+      "company": "Netlfix Clone",
+      "title": "Netflix Clone",
+      "description": "Next.js , TailwindCss, Dummy API"
     },
     {
       "id": 2,
-      "imageSrc": "https://images.unsplash.com/photo-1682695795255-b236b1f1267d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-      "company": "Design Studio",
-      "title": "Creative Design",
-      "description": "Nulla facilisi. Vestibulum quis orci eget urna congue malesuada. Quisque non ante at justo fermentum cursus."
+      "imageSrc": "https://ik.imagekit.io/m1akscp5q/7.png?updatedAt=1695873810118",
+      "company": "BAC CLINIC",
+      "title": "Clinic Website",
+      "description": "Wordpress, Figma , Elementor"
     },
     {
       "id": 3,
-      "imageSrc": "https://images.unsplash.com/photo-1682695795255-b236b1f1267d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      "imageSrc": "https://ik.imagekit.io/m1akscp5q/5.png?updatedAt=1695873810214",
       "company": "E-commerce",
-      "title": "Online Store",
-      "description": "Proin sodales purus sed arcu bibendum, a ullamcorper odio tristique. Sed vel tellus id ex scelerisque euismod."
+      "title": "Simple Online Store",
+      "description": "React.js, Express.js, Mongodb, Tailwindcss"
     },
     {
       "id": 4,
-      "imageSrc": "https://images.unsplash.com/photo-1682695795255-b236b1f1267d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-      "company": "Travel Agency",
-      "title": "Travel Website",
-      "description": "Fusce bibendum velit nec urna vestibulum, eget scelerisque purus dapibus. Sed pharetra."
+      "imageSrc": "https://ik.imagekit.io/m1akscp5q/8.png?updatedAt=1695897611434",
+      "company": "Digital Agency",
+      "title": "Bosskreator",
+      "description": "Wordpress, figma, elementor, Vanila Css"
     },
     {
       "id": 5,
-      "imageSrc": "https://images.unsplash.com/photo-1682695795255-b236b1f1267d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-      "company": "Food Delivery",
-      "title": "Food App",
-      "description": "Vivamus sit amet dui nec urna interdum pharetra. Maecenas in elit in odio feugiat venenatis ut at neque."
+      "imageSrc": "https://ik.imagekit.io/m1akscp5q/Untitled%20design%20(19).png?updatedAt=1695897793991",
+      "company": "Personal Landing Page",
+      "title": "Landing Page",
+      "description": "React.js, Vanila Css"
     },
     {
       "id": 6,
