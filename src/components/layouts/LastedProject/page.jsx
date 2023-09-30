@@ -33,6 +33,7 @@ export default function Carousel() {
             company={item.company}
             title={item.title}
             description={item.description}
+            url={item.url}
           />
         ))}
       </div>

@@ -7,21 +7,24 @@ const PortfolioData = () => {
       "imageSrc": "https://ik.imagekit.io/m1akscp5q/6.png?updatedAt=1695873810679",
       "company": "Netlfix Clone",
       "title": "Netflix Clone",
-      "description": "Next.js , TailwindCss, Dummy API"
+      "description": "Next.js , TailwindCss, Dummy API",
+      "url": "https://netflix-clone-gray-one.vercel.app/"
     },
     {
       "id": 2,
       "imageSrc": "https://ik.imagekit.io/m1akscp5q/7.png?updatedAt=1695873810118",
       "company": "BAC CLINIC",
       "title": "Clinic Website",
-      "description": "Wordpress, Figma , Elementor"
+      "description": "Wordpress, Figma , Elementor",
+      "url":"https://www.bacclinic.id.bosskreator.xyz/"
     },
     {
       "id": 3,
       "imageSrc": "https://ik.imagekit.io/m1akscp5q/5.png?updatedAt=1695873810214",
       "company": "E-commerce",
       "title": "Simple Online Store",
-      "description": "React.js, Express.js, Mongodb, Tailwindcss"
+      "description": "React.js, Express.js, Mongodb, Tailwindcss",
+      "url":"https://ecom1.bosskreator.xyz/"
     },
     {
       "id": 4,
@@ -39,18 +42,12 @@ const PortfolioData = () => {
     },
     {
       "id": 6,
-      "imageSrc": "https://images.unsplash.com/photo-1682695795255-b236b1f1267d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-      "company": "Food Delivery",
-      "title": "Food App",
-      "description": "Vivamus sit amet dui nec urna interdum pharetra. Maecenas in elit in odio feugiat venenatis ut at neque."
+      "imageSrc": "https://ik.imagekit.io/m1akscp5q/Untitled%20design%20(20).png?updatedAt=1696075256935",
+      "company": "Self Deploy",
+      "title": "Simple Calculator",
+      "description": "React.js Tailwindcss",
+      "url": "https://calculator-dede.vercel.app/"
     },
-    {
-      "id": 7,
-      "imageSrc": "https://images.unsplash.com/photo-1682695795255-b236b1f1267d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-      "company": "Food Delivery",
-      "title": "Food App",
-      "description": "Vivamus sit amet dui nec urna interdum pharetra. Maecenas in elit in odio feugiat venenatis ut at neque."
-    }
   ]
   
 };
