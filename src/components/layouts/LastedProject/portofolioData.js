@@ -12,23 +12,23 @@ const PortfolioData = () => {
     },
     {
       "id": 2,
-      "imageSrc": "https://ik.imagekit.io/m1akscp5q/7.png?updatedAt=1695873810118",
+      "imageSrc": "https://ik.imagekit.io/m1akscp5q/bacclinic.png?updatedAt=1708429945057",
       "company": "BAC CLINIC",
       "title": "Clinic Website",
-      "description": "Wordpress, Figma , Elementor",
-      "url":"https://www.bacclinic.id.bosskreator.xyz/"
+      "description": "Next Js, Figma , Tailwind Css",
+      "url":"https://www.bacclinic.id"
     },
     {
       "id": 3,
-      "imageSrc": "https://ik.imagekit.io/m1akscp5q/5.png?updatedAt=1695873810214",
-      "company": "E-commerce",
-      "title": "Simple Online Store",
-      "description": "React.js, Express.js, Mongodb, Tailwindcss",
-      "url":"https://ecom1.bosskreator.xyz/"
+      "imageSrc": "https://ik.imagekit.io/m1akscp5q/mudah%20memilih.png?updatedAt=1708429944963",
+      "company": "Mediatech",
+      "title": "Election Website",
+      "description": "Next,MySql,Laravel, Tailwindcss",
+      "url":"https://mudahmemilih.com"
     },
     {
       "id": 4,
-      "imageSrc": "https://ik.imagekit.io/m1akscp5q/8.png?updatedAt=1695897611434",
+      "imageSrc": "https://ik.imagekit.io/m1akscp5q/portofolio%20picture.png?updatedAt=1708430169323",
       "company": "Digital Agency",
       "title": "Bosskreator",
       "description": "Wordpress, figma, elementor, Vanila Css"

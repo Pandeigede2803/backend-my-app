@@ -13,7 +13,7 @@ import LastedProject from '@/components/layouts/LastedProject/page'
 
 
 
-const inter = Inter({ subsets: ['latin'] })
+// const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
@@ -26,8 +26,6 @@ export default function Home() {
       <Portofolio/>
       <Motivation/>
       <Footer/>
-      
-      
       </div>
   )
 };
